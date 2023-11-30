@@ -1,9 +1,189 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "setup": [
+      {
+          "name": "Sistemas propostas",
+          "skins": true,
+          "api": true,
+          "builder": true,
+          "publish": true,
+          "modules": [
+              {
+                  "name": "Customers",
+                  "submenu": [
+                      {
+                          "name": "contas",
+                          "permissions": [
+                              "back",
+                              "add",
+                              "edit",
+                              "pdf",
+                              "excel",
+                              "csv",
+                              "view"
+                          ],
+                          "public": true
+                      },
+                      {
+                          "name": "financeiro",
+                          "permissions": [
+                              "back",
+                              "add",
+                              "edit",
+                              "pdf",
+                              "excel",
+                              "csv",
+                              "view"
+                          ],
+                          "public": true
+                      },
+                      {
+                          "name": "credito",
+                          "permissions": [
+                              "back",
+                              "add",
+                              "edit",
+                              "pdf",
+                              "excel",
+                              "csv",
+                              "view"
+                          ],
+                          "public": true
+                      }
+                  ],
+                  "permissions": [
+                      "back",
+                      "add",
+                      "edit",
+                      "pdf",
+                      "excel",
+                      "csv",
+                      "view"
+                  ],
+                  "public": true
+              },
+              {
+                  "name": "goals",
+                  "submenu": [
+                      {
+                          "name": "contas",
+                          "permissions": [
+                              "back",
+                              "add",
+                              "edit",
+                              "pdf",
+                              "excel",
+                              "csv",
+                              "view"
+                          ],
+                          "public": true
+                      }
+                  ],
+                  "permissions": [
+                      "back",
+                      "add",
+                      "edit",
+                      "pdf",
+                      "excel",
+                      "view"
+                  ],
+                  "public": true
+              },
+              {
+                  "name": "action",
+                  "submenu": [],
+                  "permissions": [
+                      "back",
+                      "add",
+                      "edit",
+                      "pdf",
+                      "csv",
+                      "view"
+                  ],
+                  "public": true
+              }
+          ]
+      }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "user": [
+      {
+          "id": 1,
+          "name": "cleiton",
+          "email": "cleiton@email.com",
+          "user": "32186_vzxisztntt",
+          "perfil": "Administrador",
+          "imagem": "/public/assets/yulia.jpg"
+      },
+      {
+          "id": 2,
+          "name": "amanda",
+          "email": "amanda@email.com",
+          "user": "4444_ttddsfstntt",
+          "perfil": "moderador",
+          "imagem": "https://assets.propmark.com.br/uploads/2022/02/WhatsApp-Image-2022-02-18-at-08.52.06.jpeg"
+      },
+      {
+          "id": 3,
+          "name": "cleiton",
+          "email": "cleiton@email.com",
+          "user": "32186_vzxisztntt",
+          "perfil": "Administrador",
+          "imagem": "/public/assets/yulia.jpg"
+      },
+      {
+          "id": 4,
+          "name": "amanda",
+          "email": "amanda@email.com",
+          "user": "4444_ttddsfstntt",
+          "perfil": "moderador",
+          "imagem": "https://assets.propmark.com.br/uploads/2022/02/WhatsApp-Image-2022-02-18-at-08.52.06.jpeg"
+      },
+      {
+          "id": 5,
+          "name": "cleiton",
+          "email": "cleiton@email.com",
+          "user": "32186_vzxisztntt",
+          "perfil": "Administrador",
+          "imagem": "/public/assets/yulia.jpg"
+      },
+      {
+          "id": 6,
+          "name": "amanda",
+          "email": "amanda@email.com",
+          "user": "4444_ttddsfstntt",
+          "perfil": "moderador",
+          "imagem": "https://assets.propmark.com.br/uploads/2022/02/WhatsApp-Image-2022-02-18-at-08.52.06.jpeg"
+      },
+      {
+          "id": 7,
+          "name": "cleiton",
+          "email": "cleiton@email.com",
+          "user": "32186_vzxisztntt",
+          "perfil": "Administrador",
+          "imagem": "/public/assets/yulia.jpg"
+      },
+      {
+          "id": 8,
+          "name": "amanda",
+          "email": "amanda@email.com",
+          "user": "4444_ttddsfstntt",
+          "perfil": "moderador",
+          "imagem": "https://assets.propmark.com.br/uploads/2022/02/WhatsApp-Image-2022-02-18-at-08.52.06.jpeg"
+      },
+      {
+          "id": 9,
+          "name": "cleiton",
+          "email": "cleiton@email.com",
+          "user": "32186_vzxisztntt",
+          "perfil": "Administrador",
+          "imagem": "/public/assets/yulia.jpg"
+      },
+      {
+          "id": 10,
+          "name": "amanda",
+          "email": "amanda@email.com",
+          "user": "4444_ttddsfstntt",
+          "perfil": "moderador",
+          "imagem": "https://assets.propmark.com.br/uploads/2022/02/WhatsApp-Image-2022-02-18-at-08.52.06.jpeg"
+      }
+  ]
 }
